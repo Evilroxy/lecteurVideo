@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 176, 209);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  width: 70%; 
+  height: 500px;
+  background-color: black;
+  margin: auto;
+  margin-top:65px;
+  border-radius: 5px;
+}
+
+.controls {
+  display: flex; 
+  align-items: end;
+  
+  margin-left: 35%;
+}
+
+
+button {
+  display: flex;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 10%;
+}
+
+progress {
+ display: flex;
+ align-items: center;
+width: 500px;
+margin-left: 500px
+}
+

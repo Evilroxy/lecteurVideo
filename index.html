@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Site permettant de lire une vidéo">
+    <link rel="stylesheet" href="style.css">
+    <title>Lecteur Vidéo</title>
+  </head>
+  <body>
+    <section class="lecteur">
+      <video id="video" width="80%">
+<source  src="/video.mp4" type="video/mp4">
+
+            
+    </progress>
+    </video>
+  </section>
+    <div class="controls">
+      <button id="BACK">BACK 10S</button>
+      <button id="SKIP">SKIP 10S</button>
+      <button id="RESET">RESET</button>
+    </div>
+    <progress id="progress" max="100" value="0"></progress>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
